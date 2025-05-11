@@ -55,13 +55,13 @@ O software visa automatizar a gestão administrativa do consultório, permitindo
 
 <h3>Front-end</h3>
 <ul>
-    <li><b>Status: </b>Concluído</li>
+    <li><b>Status: Em construção...
     <li><b>Tecnologias: </b>Figma, HTML, CSS e Javascript.</li>
 </ul>
 <h3>Back-end</h3>
     <li><b>Tecnologias: </b>Node.js.</li>
 <ul>
-    <li><b>Status: </b>Concluído</li>   
+    <li><b>Status: Em construção...
     <li><b>Observações: </b> Foi utilizada a linguagem SQL (Banco de dados).</li>
 </ul>
 <h3>Base de dados</h3>
@@ -91,7 +91,6 @@ O software visa automatizar a gestão administrativa do consultório, permitindo
 <h2>Professora orientadora :mortar_board: :</h2>
 
 <h3>Tâmara Kovacs Rocha</h3>
-
 <br>
 
 ## Licença 
