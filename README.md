@@ -14,7 +14,7 @@
 
 </div>
 
-> Status do Projeto: :heavy_check_mark: :warning: Concluído :heavy_check_mark: 
+> Status do Projeto: :heavy_check_mark: :warning: Em construção...
 
 ### Tópicos 
 
