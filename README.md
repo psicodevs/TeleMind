@@ -10,7 +10,7 @@
 #### O local escolhido foi uma clinica de Psicologia na região da Zona Leste da cidade de São Paulo;
 
 <div align="center">
-    <h1>TeleMindII</h1>
+    <h1>TeleMind</h1>
 
 </div>
 
