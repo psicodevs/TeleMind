@@ -1,22 +1,70 @@
-document.addEventListener("DOMContentLoaded", function () {
-    // Encontrar todos os botões "Like"
-    const likeButtons = document.querySelectorAll('.likeLabel');
+const form = document.getElementById('agenda-form');
+const lista = document.getElementById('agenda-lista');
 
-    // Adicionar event listeners para cada botão "Like"
-    likeButtons.forEach(button => {
-        button.addEventListener('click', function (event) {
-            // Prevenir o comportamento padrão (se necessário)
-            event.preventDefault();
+let compromissos = [];
 
-            // Localizar o contador de curtidas
-            let likesCountElement = document.querySelector('.likesCount');
-            let currentLikes = parseInt(likesCountElement.textContent.replace(/[^\d]/g, ''), 10);
+form.addEventListener('submit', function(event) {
+    event.preventDefault();
+    
+    const titulo = document.getElementById('titulo').value;
+    const data = document.getElementById('data').value;
 
-            // Incrementar a contagem de curtidas
-            currentLikes++;
+    const compromisso = {
+        id: Date.now(),
+        titulo,
+        data
+    };
 
-            // Atualizar a contagem de curtidas no elemento
-            likesCountElement.textContent = `${currentLikes} Likes`;
-        });
-    });
+    compromissos.push(compromisso);
+    atualizarLista();
+
+    form.reset();
 });
+
+function atualizarLista() {
+    lista.innerHTML = '';
+
+    compromissos.forEach(compromisso => {
+        const li = document.createElement('li');
+        li.className = 'item';
+        
+        const texto = document.createElement('span');
+        texto.textContent = `${compromisso.titulo} - ${new Date(compromisso.data).toLocaleString()}`;
+
+        const actions = document.createElement('div');
+        actions.className = 'actions';
+
+        const btnEditar = document.createElement('button');
+        btnEditar.textContent = '✏️';
+        btnEditar.onclick = () => editarCompromisso(compromisso.id);
+
+        const btnExcluir = document.createElement('button');
+        btnExcluir.textContent = '🗑️';
+        btnExcluir.onclick = () => excluirCompromisso(compromisso.id);
+
+        actions.appendChild(btnEditar);
+        actions.appendChild(btnExcluir);
+
+        li.appendChild(texto);
+        li.appendChild(actions);
+
+        lista.appendChild(li);
+    });
+}
+
+function editarCompromisso(id) {
+    const compromisso = compromissos.find(c => c.id === id);
+    const novoTitulo = prompt('Editar título:', compromisso.titulo);
+    const novaData = prompt('Editar data (aaaa-mm-ddThh:mm):', compromisso.data);
+
+    if (novoTitulo && novaData) {
+        compromisso.titulo = novoTitulo;
+        compromisso.data = novaData;
+        atualizarLista();
+    }
+}
+
+function excluirCompromisso(id) {
+    compromissos = compromissos.filter(c => c.id !== id);
+    atualizarLista();
+}
