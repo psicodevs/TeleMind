@@ -49,9 +49,11 @@
 
 > A seguir, imagens ilustrativas do layout da aplicação desenvolvido no Figma:  
 
-![Tela de Login](caminho/para/imagem-login.png)  
-![Dashboard](caminho/para/imagem-dashboard.png)  
-![Agendamento](caminho/para/imagem-agendamento.png)  
+![Tela de Login](/TeleMind-main/Prototipo_Figma/Login.png) 
+![Tela Cadastrar Usuário](/TeleMind-main/Prototipo_Figma/Cadastrar_Usuário_Modal.png) 
+![Tela Inicial](/TeleMind-main/Prototipo_Figma/Tela_Inicial.png) 
+![Tela Agendar Consulta](/TeleMind-main/Prototipo_Figma/Agendar_Consulta_Modal.png)  
+![Tela Agenda](/TeleMind-main/Prototipo_Figma/Agenda.png)  
 
 ## Tecnologias utilizadas :dart:
 
@@ -97,11 +99,11 @@
 <h2>Professora orientadora :mortar_board: :</h2>
 
 <h3>Tâmara Kovacs Rocha</h3>
-<br>
 
 ## Licença 
 
 The [Apache 2.0]()
 
-Copyright:copyright: 2025 - TeleMind
+© 2025 - TeleMind
+
 
