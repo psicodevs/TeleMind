@@ -1,5 +1,5 @@
 # TeleMind
-#### Graduandos UNIVESP Eixo Tecnológico São Paulo - SP;
+#### Graduandos UNIVESP Eixo Tecnológico São Paulo - SP - Polo Uniceu Formosa e Polo Céu Campo Limpo;
 
 #### Software para gerenciar e administrar clinica de Psicologia;
 
@@ -14,7 +14,7 @@
 
 </div>
 
-> Status do Projeto: :heavy_check_mark: :warning: Em construção...
+> Status do Projeto: :heavy_check_mark: :warning: Concluído
 
 ### Tópicos 
 
@@ -24,55 +24,61 @@
 
 :small_blue_diamond: [Deploy da Aplicação](#deploy-da-aplicação)
 
+:small_blue_diamond: [Tecnologias utilizadas](#tecnologias-utilizadas).
+
 
 ## Descrição do projeto :bulb: :computer: :books: :rocket:  
 
-<p align="justify">
-O intuito do projeto TeleMind é facilitar o gerenciamento e administração de dados para consultório de psicologia.
-O software visa automatizar a gestão administrativa do consultório, permitindo a otimização do tempo de atendimento entre profissional e pacientes. Com uma interface intuitiva e recursos eficientes, o sistema facilitará o agendamento de consultas, possibilitará o acompanhamento das sessões e garantirá um controle financeiro preciso, dedicando mais tempo e energia ao atendimento terapêutico e ao suporte emocional dos indivíduos atendidos, promovendo um ambiente seguro no consultório.
-
-</p>
+<p align="justify"> O projeto <b>TeleMind</b> tem como objetivo facilitar o gerenciamento e a administração de dados para consultórios de psicologia. O software visa automatizar a gestão administrativa, permitindo a otimização do tempo de atendimento entre profissionais e pacientes. Com uma interface intuitiva e recursos eficientes, o sistema facilita o agendamento de consultas, possibilita o acompanhamento das sessões e garante um controle financeiro preciso. Assim, profissionais podem dedicar mais tempo e energia ao atendimento terapêutico e ao suporte emocional, promovendo um ambiente seguro no consultório. </p>
 
 ## Funcionalidades :loudspeaker:
 
-:heavy_check_mark: Interface gráfica interativa de fácil acesso;  
+:heavy_check_mark: Interface gráfica interativa de fácil acesso;
 
-:heavy_check_mark: Facilitador na administração da agenda e faturamento; 
+:heavy_check_mark: Facilitador na administração da agenda e faturamento;
 
-:heavy_check_mark: Facilitar a rotina da profissional com a automatização de tarefas executadas atualmente manualmente;  
+:heavy_check_mark: Facilitar a rotina da profissional com a automatização de tarefas executadas atualmente manualmente;
 
 :heavy_check_mark: Disponibilizar uma ferramenta com recursos voltados para gerenciar a administração do consultório;
 
-:heavy_check_mark:O software deverá ser capaz de coletar e armazenar os dados relevantes dos pacientes com o auxílio do gerenciador de banco de dados;
+:heavy_check_mark: O software deverá ser capaz de coletar e armazenar os dados relevantes dos pacientes com o auxílio do gerenciador de banco de dados;
 
 :heavy_check_mark: Armazenar os dados dos pacientes com uso da LGPD (Lei Geral de Proteção de Dados);
 
-## Layout ou Deploy da Aplicação :dash:
+## Layout da Aplicação :dash:
 
-> Link do deploy da aplicação: Em construção...
+> A seguir, imagens ilustrativas do layout da aplicação desenvolvido no Figma:  
 
-## Linguagens, dependências, libs e tecnologia utilizadas :dart:
+![Tela de Login](caminho/para/imagem-login.png)  
+![Dashboard](caminho/para/imagem-dashboard.png)  
+![Agendamento](caminho/para/imagem-agendamento.png)  
+
+## Tecnologias utilizadas :dart:
 
 <h3>Front-end</h3>
 <ul>
-    <li><b>Status: Em construção...
+    <li><b>Status: Concluído
     <li><b>Tecnologias: </b>Figma, HTML, CSS e Javascript.</li>
 </ul>
 <h3>Back-end</h3>
     <li><b>Tecnologias: </b>Node.js.</li>
 <ul>
-    <li><b>Status: Em construção...
-    <li><b>Observações: </b> Foi utilizada a linguagem SQL (Banco de dados).</li>
+    <li><b>Status: Concluído
+     <b>Tecnologias:</b> Node.js.</li> <li><b>Observações:</b> Foi utilizada a linguagem SQL (Banco de dados).</li>
 </ul>
 <h3>Base de dados</h3>
 <ul>
     <li><b>Status: </b>Concluído :heavy_check_mark:</li>
-    <li><b>Tecnologias: </b>MySQL</li>
+    <li><b>Tecnologias:</b> MySQL e MongoDB.</li>
 </ul>
-<h3>Outros</h3>
+<h3>Business Intelligence</h3> 
 <ul>
     <li><b>Status: </b>Concluído :heavy_check_mark:</li>
-    <li><b>Tecnologias: </b>Figma, Visual Studio Code e Trello</li>
+    <li><b>Tecnologias:</b> Power BI.</li>
+</ul>
+<h3>Outros</h3> 
+    <ul> <li><b>Status:</b> Concluído :heavy_check_mark:</li>
+    <li><b>Tecnologias:</b> Figma, Visual Studio Code e Trello.</li>
 </ul>
 
 ## Desenvolvedores e users git:  :octocat:
@@ -97,5 +103,5 @@ O software visa automatizar a gestão administrativa do consultório, permitindo
 
 The [Apache 2.0]()
 
-Copyright:copyright: 2024 - TeleMindII
+Copyright:copyright: 2025 - TeleMind
 
