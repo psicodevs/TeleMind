@@ -22,8 +22,6 @@
 
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
 
-:small_blue_diamond: [Deploy da Aplicação](#deploy-da-aplicação)
-
 :small_blue_diamond: [Tecnologias utilizadas](#tecnologias-utilizadas).
 
 
@@ -44,16 +42,6 @@
 :heavy_check_mark: O software deverá ser capaz de coletar e armazenar os dados relevantes dos pacientes com o auxílio do gerenciador de banco de dados;
 
 :heavy_check_mark: Armazenar os dados dos pacientes com uso da LGPD (Lei Geral de Proteção de Dados);
-
-## Layout da Aplicação :dash:
-
-> A seguir, imagens ilustrativas do layout da aplicação desenvolvido no Figma:  
-
-![Tela de Login](/TeleMind-main/Prototipo_Figma/Login.png) 
-![Tela Cadastrar Usuário](/TeleMind-main/Prototipo_Figma/Cadastrar_Usuário_Modal.png) 
-![Tela Inicial](/TeleMind-main/Prototipo_Figma/Tela_Inicial.png) 
-![Tela Agendar Consulta](/TeleMind-main/Prototipo_Figma/Agendar_Consulta_Modal.png)  
-![Tela Agenda](/TeleMind-main/Prototipo_Figma/Agenda.png)  
 
 ## Tecnologias utilizadas :dart:
 
@@ -99,6 +87,9 @@
 <h2>Professora orientadora :mortar_board: :</h2>
 
 <h3>Tâmara Kovacs Rocha</h3>
+
+<p align="justify">
+<h2>Agradecimentos :heart::</h2> O projeto TeleMind foi elaborado graças a toda infraestrutura de formação da Univesp, conhecimento, instruções e dedicação dos professores e mestres. Aos nossos familiares e amigos que nos apoiaram durante toda essa jornada de aprendizado. </p>
 
 ## Licença 
 
